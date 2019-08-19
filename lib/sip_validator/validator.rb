@@ -27,7 +27,7 @@ module SipValidator
     validates :sccp, 
               presence: true, 
               unless: ->(v){v.sip.present?}
-    validates_inclusion_of :status, in: ['WIP', 'Proposed', 'Approved', 'Implemented']
+    validates_inclusion_of :status, in: ['WIP', 'Proposed', 'Approved', 'Implemented', 'Rejected']
   end
 end
 
