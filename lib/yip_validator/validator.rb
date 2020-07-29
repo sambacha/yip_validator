@@ -17,7 +17,7 @@ module YipValidator
 
     include ActiveModel::Model
     attr_accessor :yip, :title, :author, :status, :created, :updated
-    attr_accessor :replaces, :requires, :layer, :resolution
+    attr_accessor :replaces, :requires, :layer, :resolution, :implementation
     # replace - with _
     attr_accessor :discussions_to, :superseded_by, :review_period_end
     validates_presence_of :title, :author, :status, :created
