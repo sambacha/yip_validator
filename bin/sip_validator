@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'sip_validator'
+require 'yip_validator'
 
-SipValidator::Runner.run ARGV
+YipValidator::Runner.run ARGV
