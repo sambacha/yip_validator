@@ -22,7 +22,7 @@ module YipValidator
     attr_accessor :discussions_to, :superseded_by, :review_period_end
     validates_presence_of :title, :author, :status, :created
     validates :yip, presence: true
-    validates_inclusion_of :status, in: ['WIP', 'Proposed', 'Approved', 'Implemented', 'Rejected']
+    validates_inclusion_of :status, in: ['WIP', 'Proposed', 'Approved', 'Implemented', 'Rejected', 'Withdrawn', 'Deferred', 'Moribund']
   end
 end
 
