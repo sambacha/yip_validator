@@ -1,6 +1,6 @@
 # YIP validator
 [![Gem](https://img.shields.io/gem/v/yip_validator.svg?style=flat)](http://rubygems.org/gems/yip_validator "View this project in Rubygems")
-
+[![Build Status](https://travis-ci.com/sambacha/yip_validator.svg?branch=master)](https://travis-ci.com/sambacha/yip_validator)
 
 ## Validation rules
 
