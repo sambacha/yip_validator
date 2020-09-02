@@ -2,6 +2,9 @@
 [![Gem](https://img.shields.io/gem/v/yip_validator.svg?style=flat)](http://rubygems.org/gems/yip_validator "View this project in Rubygems")
 [![Build Status](https://travis-ci.com/sambacha/yip_validator.svg?branch=master)](https://travis-ci.com/sambacha/yip_validator)
 
+<!-- [![Ruby Actions Status](https://github.com/{USR_NAME}/{REPO_NAME}/workflows/{Ruby}/badge.svg)](https://github.com/{USR_NAME}/{REPO_NAME}/actions) -->
+[![Ruby Actions Status](https://github.com/sambacha/yip_validator/workflows/Ruby/badge.svg)](https://github.com/sambacha/yip_validator/actions)
+
 ## Overview 
 - [YIP validator](#yip-validator)
   * [Validation rules](#validation-rules)
