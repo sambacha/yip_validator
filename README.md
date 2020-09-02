@@ -2,6 +2,21 @@
 [![Gem](https://img.shields.io/gem/v/yip_validator.svg?style=flat)](http://rubygems.org/gems/yip_validator "View this project in Rubygems")
 [![Build Status](https://travis-ci.com/sambacha/yip_validator.svg?branch=master)](https://travis-ci.com/sambacha/yip_validator)
 
+## Overview 
+- [YIP validator](#yip-validator)
+  * [Validation rules](#validation-rules)
+    + [Mandatory fields](#mandatory-fields)
+    + [Optional fields](#optional-fields)
+    + [Mandatory values](#mandatory-values)
+  * [Prerequisite](#prerequisite)
+  * [Setup](#setup)
+  * [Usage (command line)](#usage--command-line-)
+  * [Usage (as a lib)](#usage--as-a-lib-)
+    + [Example](#example)
+  * [Running tests](#running-tests)
+  * [Releasing new gem](#releasing-new-gem)
+  * [License](#license)
+ 
 ## Validation rules
 
 ### Mandatory fields
@@ -37,7 +52,7 @@
 
 ## Prerequisite
 
-- Ruby 2.4+
+- Ruby 2.3.3+
 
 ## Setup
 
@@ -82,5 +97,5 @@ gem bump --version patch|minor|major
 bundle exec rake release
 ```
 
-## Licesne 
+## License 
 SPDX-License-Identifier: MIT
