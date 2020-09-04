@@ -25,7 +25,16 @@
 
 ### Mandatory values
 
-- `status` must be 'WIP', 'Proposed', 'Approved', 'Implemented', or 'Rejected'
+- `status` must be:
+	* 'WIP'
+	* 'Proposed'
+	* 'Approved'
+	* 'Implemented'
+	* 'Withdrawn'
+	* 'Deferred'
+	* 'Rejected'
+	* 'Moribund'
+
 ## Prerequisite
 
 - ruby
